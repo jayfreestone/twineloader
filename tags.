@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/72e5f3f/
+120dpi	scss/main.scss	/^       (min-resolution: 120dpi) {$/;"	t
+35em	scss/main.scss	/^@media only screen and (min-width: 35em) {$/;"	t
+a	scss/main.scss	/^    a,$/;"	t
+audio	scss/main.scss	/^audio,$/;"	t
+blockquote	scss/main.scss	/^    blockquote {$/;"	t
+body	scss/main.scss	/^body {$/;"	t
+browserupgrade	scss/main.scss	/^.browserupgrade {$/;"	c
+canvas	scss/main.scss	/^canvas,$/;"	t
+fieldset	scss/main.scss	/^fieldset {$/;"	t
+green	scss/main.scss	/^$green: #409388;$/;"	v
+green-dark	scss/main.scss	/^$green-dark: #1a7566;$/;"	v
+h1	scss/main.scss	/^    h1 {$/;"	t
+h2	scss/main.scss	/^    h2,$/;"	t
+h3	scss/main.scss	/^    h3 {$/;"	t
+hidden	scss/main.scss	/^.hidden {$/;"	c
+hr	scss/main.scss	/^hr {$/;"	t
+html	scss/main.scss	/^html {$/;"	t
+iframe	scss/main.scss	/^iframe,$/;"	t
+iframes	scss/main.scss	/^ * Remove the gap between audio, canvas, iframes,$/;"	t
+img	scss/main.scss	/^    img {$/;"	t
+img	scss/main.scss	/^img,$/;"	t
+intro	scss/main.scss	/^.intro {$/;"	c
+invisible	scss/main.scss	/^.invisible {$/;"	c
+loader	scss/main.scss	/^.loader {$/;"	c
+noop	js/plugins.js	/^    var noop = function () {};$/;"	f
+onUpdate	js/main.js	/^		onUpdate: function() {$/;"	f
+p	scss/main.scss	/^    p {$/;"	t
+p	scss/main.scss	/^    p,$/;"	t
+pre	scss/main.scss	/^    pre,$/;"	t
+progress-bar	scss/main.scss	/^.progress-bar {$/;"	c
+progress-bar__bg	scss/main.scss	/^.progress-bar__bg {$/;"	c
+progress-bar__icon	scss/main.scss	/^.progress-bar__icon {$/;"	c
+progress-bar__icon-label	scss/main.scss	/^.progress-bar__icon-label {$/;"	c
+progress-bar__line	scss/main.scss	/^.progress-bar__line {$/;"	c
+progress-bar__section	scss/main.scss	/^.progress-bar__section {$/;"	c
+progress-bar__section	scss/main.scss	/^.progress-bar__section,$/;"	c
+progress-eta	scss/main.scss	/^.progress-eta {$/;"	c
+svg	scss/main.scss	/^svg,$/;"	t
+textarea	scss/main.scss	/^textarea {$/;"	t
+thead	scss/main.scss	/^    thead {$/;"	t
+tr	scss/main.scss	/^    tr,$/;"	t
+video	scss/main.scss	/^video {$/;"	t
+visuallyhidden	scss/main.scss	/^.visuallyhidden {$/;"	c

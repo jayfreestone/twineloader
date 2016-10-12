@@ -51,5 +51,5 @@ $('document').ready(function(){
 		ease: Power4.easeOut,
 	}, 'countdown');
 
-	tl.to($progressBarBg, 40, {right: 0, ease: Power4.easeOut}, 'countdown');
+	tl.to($progressBarBg, 40, {scaleX: 1, ease: Power4.easeOut}, 'countdown');
 });

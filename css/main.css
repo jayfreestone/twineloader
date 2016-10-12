@@ -248,10 +248,12 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  right: 100%;
   bottom: 0;
+  width: 100%;
   z-index: 1;
-  background: #fff; }
+  background: #fff;
+  transform: scaleX(0);
+  transform-origin: left center; }
 
 .progress-bar__icon {
   display: block;
