@@ -148,10 +148,8 @@ textarea {
    ========================================================================== */
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */ }
-
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */ }
-
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
@@ -166,47 +164,56 @@ textarea {
     background: transparent !important;
     color: #000 !important;
     /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
+       http://www.sanbeiji.com/archives/953 */
     box-shadow: none !important;
     text-shadow: none !important; }
+
   a,
   a:visited {
     text-decoration: underline; }
+
   a[href]:after {
     content: " (" attr(href) ")"; }
+
   abbr[title]:after {
     content: " (" attr(title) ")"; }
+
   /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: ""; }
+
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
+
   /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
+   * Printing Tables:
+   * http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
   thead {
     display: table-header-group; }
+
   tr,
   img {
     page-break-inside: avoid; }
+
   img {
     max-width: 100% !important; }
+
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
+
   h2,
   h3 {
     page-break-after: avoid; } }
-
 /** Custom **/
 * {
   box-sizing: border-box; }
@@ -237,17 +244,17 @@ body {
     color: #b6dfd9; }
 
 .progress-bar {
-  background: #1a7566;
   position: relative;
   display: flex;
+  align-items: center;
   max-width: 1200px;
   margin: 0 auto;
   opacity: 0; }
 
-.progress-bar__bg {
+.progress-bar__icon-bg {
   position: absolute;
   top: 0;
-  left: 0;
+  left: .5rem;
   bottom: 0;
   width: 100%;
   z-index: 1;
@@ -266,13 +273,16 @@ body {
     right: 0;
     bottom: 0;
     height: 100%;
-    width: 100%; }
+    width: 100%;
+    z-index: 2; }
 
 .progress-bar__icon-label {
   display: block;
   text-align: center;
+  color: #1a7566;
   background: #409388;
-  color: #1a7566; }
+  position: relative;
+  z-index: 2; }
 
 .progress-bar__section,
 .progress-bar__line {
@@ -280,11 +290,14 @@ body {
 
 .progress-bar__section {
   max-width: 6rem;
-  position: relative; }
+  position: relative;
+  background-color: #409388;
+  overflow: hidden; }
 
 .progress-bar__line {
-  background-image: url("../img/line.svg");
-  background-position: center center;
+  background: #1a7566;
+  opacity: .5;
+  height: .6rem;
   width: 10rem;
   flex-grow: 1;
   flex-shrink: 1; }

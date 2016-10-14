@@ -324,9 +324,9 @@ body {
 }
 
 .progress-bar {
-    background: $green-dark;
     position: relative;
     display: flex;
+    align-items: center;
     max-width: 1200px;
     margin: 0 auto;
 
@@ -334,10 +334,10 @@ body {
     opacity: 0;
 }
 
-.progress-bar__bg {
+.progress-bar__icon-bg {
     position: absolute;
     top: 0;
-    left: 0;
+    left: .5rem;
     bottom: 0;
 	width: 100%;
     z-index: 1;
@@ -359,14 +359,17 @@ body {
 		bottom: 0;
 		height: 100%;
 		width: 100%;
+        z-index: 2;
 	}
 }
 
 .progress-bar__icon-label {
 	display: block;
 	text-align: center;
-	background: $green;
 	color: $green-dark;
+    background: $green;
+    position: relative;
+    z-index: 2;
 }
 
 
@@ -376,15 +379,16 @@ body {
 }
 
 .progress-bar__section {
-    // background-color: $green;
     max-width: 6rem;
     position: relative;
+    background-color: $green;
+    overflow: hidden;
 }
 
 .progress-bar__line {
-    background-image: url('../img/line.svg');
-    background-position: center center;
-    // background-color: lighten($green-dark, 4%);
+    background: $green-dark;
+    opacity: .5;
+    height: .6rem;
     width: 10rem;
     flex-grow: 1;
     flex-shrink: 1;
